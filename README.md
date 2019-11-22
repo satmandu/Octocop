@@ -1,6 +1,6 @@
 # Octocop
 
-Runs [rubocop](https://github.com/rubocop-hq/rubocop) with
+Runs [rubocop](https://github.com/rubocop-hq/rubocop) and reports results with
 [reviewdog](https://github.com/reviewdog/reviewdog). 
 
 It's specifically designed for pull requests, and will report results only on the diff against the PR base.
