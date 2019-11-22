@@ -38,6 +38,7 @@ Optional.
 #### `additional_gems`
 
 String to pass to `gem install` after rubocop installs.
+&nbsp;
 
 ## Example usage
 
