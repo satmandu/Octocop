@@ -6,7 +6,7 @@ Runs [rubocop](https://github.com/rubocop-hq/rubocop) with
 It's specifically designed for pull requests, and will report results only on the diff against the PR base.
 
 &nbsp;
-### Inputs
+## Inputs
 
 #### `github_token`
 
@@ -39,7 +39,7 @@ Optional.
 
 String to pass to `gem install` after rubocop installs.
 
-### Example usage
+## Example usage
 
 ```yml
 name: Rubocop
