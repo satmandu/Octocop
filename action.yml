@@ -1,0 +1,41 @@
+name: 'Octocop'
+description: 'Run rubocop against the diff of your PR base'
+author: 'jkminneti'
+inputs:
+  github_token:
+    description: 'GITHUB_TOKEN.'
+    required: true
+  rubocop_flags:
+    description: 'rubocop flags. (rubocop <rubocop_flags>)'
+    default: ''
+  tool_name:
+    description: 'Tool name to use for reviewdog reporter'
+    default: 'rubocop'
+  level:
+    description: 'Report level for reviewdog [info,warning,error]'
+    default: 'error'
+  reporter:
+    description: |
+      Reporter of reviewdog command [github-pr-check,github-pr-review].
+      Default is github-pr-check.
+    default: 'github-pr-review'
+  rubocop_version:
+    description: 'Optional'
+    default: ''
+  additional_gems:
+    description: 'Install additional gems after rubocop (gem install <additional_gems>)'
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github_token }}
+    - ${{ inputs.rubocop_flags }}
+    - ${{ inputs.tool_name }}
+    - ${{ inputs.level }}
+    - ${{ inputs.reporter }}
+    - ${{ inputs.rubocop_version }}
+    - ${{ inputs.additional_gems }}
+branding:
+  icon: 'shield'
+  color: 'green'
