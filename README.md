@@ -64,3 +64,4 @@ jobs:
 ```
 
 Originally forked from https://github.com/mgrachev/action-rubocop :heart:
+Includes code from https://github.com/andrewmcodes/rubocop-linter-action :heart:
