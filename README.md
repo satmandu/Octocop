@@ -29,7 +29,7 @@ It's same as `-level` flag of reviewdog.
 #### `reporter`
 
 Optional. Reporter of reviewdog command [`github-pr-check`, `github-pr-review`].
-The default is `github-pr-check`.
+The default is `github-pr-review`.
 
 #### `rubocop_version`
 
