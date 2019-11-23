@@ -9,7 +9,7 @@ It's specifically designed for pull requests, and will report results only on th
 
 If you're using something like CodeClimate, and don't like that existing external tools don't run against PRs that don't target your repo default branch, this is for you.
 
-`reporter` input is important. Thanks to reviewdog, this can either just fail checks at a given level, or additionally comment on the PR directly for each relevant failure.
+`reporter` input is important. Thanks to [reviewdog](https://github.com/reviewdog/reviewdog), this can either just fail checks at a given level, or additionally comment on the PR directly for each relevant failure.
 
 &nbsp;
 
