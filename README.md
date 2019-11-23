@@ -37,7 +37,7 @@ Optional. Defaults to passing nothing to `gem install rubocop`.
 
 #### `additional_gems`
 
-Optional. String to pass to `gem install` after rubocop installs.
+Optional. String to pass to `gem install` after rubocop installs, if present.
 
 &nbsp;
 
