@@ -5,6 +5,8 @@ Runs [rubocop](https://github.com/rubocop-hq/rubocop) and reports results with
 
 It's specifically designed for pull requests, and will report results only on the diff against the PR base.
 
+If you're using something like CodeClimate, and don't like that existing external tools don't run against PRs that don't target your repo default branch, this is for you.
+
 &nbsp;
 ## Inputs
 
