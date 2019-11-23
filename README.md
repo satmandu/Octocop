@@ -18,8 +18,8 @@ Optional. Rubocop flags. (rubocop `<rubocop_flags>`).
 
 #### `tool_name`
 
-Optional. Tool name to use for reviewdog reporter. Useful when running multiple
-actions with different config.
+Optional. Tool name to use for the resulting reviewdog report. Useful when running multiple
+actions with different reviewdog reports.
 
 #### `level`
 
@@ -33,7 +33,7 @@ The default is `github-pr-review`.
 
 #### `rubocop_version`
 
-Optional.
+Optional. Defaults to passing nothing to `gem install rubocop`
 
 #### `additional_gems`
 
