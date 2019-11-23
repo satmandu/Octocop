@@ -14,7 +14,7 @@ It's specifically designed for pull requests, and will report results only on th
 
 #### `rubocop_flags`
 
-Optional. Rubocop flags. (rubocop `<rubocop_flags>`).
+Optional. String to pass to `rubocop`, defaults to passing nothing.
 
 #### `tool_name`
 
@@ -33,11 +33,11 @@ The default is `github-pr-review`.
 
 #### `rubocop_version`
 
-Optional. Defaults to passing nothing to `gem install rubocop`
+Optional. Defaults to passing nothing to `gem install rubocop`.
 
 #### `additional_gems`
 
-String to pass to `gem install` after rubocop installs.
+Optional. String to pass to `gem install` after rubocop installs.
 
 &nbsp;
 
