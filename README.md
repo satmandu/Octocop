@@ -1,5 +1,7 @@
 # Octocop
 
+![octocop](./octocop.png)
+
 Runs [rubocop](https://github.com/rubocop-hq/rubocop) and reports results with
 [reviewdog](https://github.com/reviewdog/reviewdog). 
 
