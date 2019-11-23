@@ -74,4 +74,4 @@ Originally forked from https://github.com/mgrachev/action-rubocop :heart:
 
 Includes code from https://github.com/andrewmcodes/rubocop-linter-action :heart:
 
-Logo thanks to the unrelated goals of https://github.com/dan1229/OctoCop :heart: 
+Logo thanks to the unrelated pursuits of https://github.com/dan1229/OctoCop :heart: 
