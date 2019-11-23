@@ -70,6 +70,8 @@ jobs:
         rubocop_flags: "-c rubocop/rubocop.yml --except Style/StringLiterals"
 ```
 
+## Thanks and Alternatives
+
 Originally forked from https://github.com/mgrachev/action-rubocop :heart:
 
 Includes code from https://github.com/andrewmcodes/rubocop-linter-action :heart:
