@@ -42,11 +42,11 @@ Defaults to `github-pr-review`.
 
 #### `rubocop_version`
 
-Optional. Defaults to passing nothing to `gem install rubocop`.
+Optional. Defaults to passing nothing to `gem install rubocop`. Let me know if you have a config string not supported outside of `-v`.
 
 #### `additional_gems`
 
-Optional. String to pass to `gem install` after rubocop installs, if present.
+Optional. String to pass to `gem install` after rubocop and relevant possible dependencies install, if present.
 
 &nbsp;
 
