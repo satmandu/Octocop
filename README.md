@@ -1,5 +1,3 @@
-# Octocop
-
 ![octocop](./octocop.png)
 
 &nbsp;
