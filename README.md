@@ -31,12 +31,12 @@ actions with different reviewdog reports.
 #### `level`
 
 Optional. Report level for reviewdog [`info`, `warning`, `error`].
-It's same as `-level` flag of reviewdog.
+Defaults to 'error'.
 
 #### `reporter`
 
 Optional. Reporter of reviewdog command [`github-pr-check`, `github-pr-review`].
-The default is `github-pr-review`.
+Defaults to `github-pr-review`.
 
 #### `rubocop_version`
 
