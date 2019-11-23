@@ -2,6 +2,8 @@
 
 ![octocop](./octocop.png)
 
+&nbsp;
+
 Runs [rubocop](https://github.com/rubocop-hq/rubocop) and reports results with
 [reviewdog](https://github.com/reviewdog/reviewdog). 
 
@@ -10,6 +12,7 @@ It's specifically designed for pull requests, and will report results only on th
 If you're using something like CodeClimate, and don't like that existing external tools don't run against PRs that don't target your repo default branch, this is for you.
 
 &nbsp;
+
 ## Inputs
 
 #### `github_token`
