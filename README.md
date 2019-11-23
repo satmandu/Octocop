@@ -61,7 +61,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: rubocop
-      uses: Freshly/octocop@v0.0.1
+      uses: Freshly/Octocop@v0.0.1
       with:
         github_token: ${{ secrets.github_token }}
         rubocop_version: 0.74
